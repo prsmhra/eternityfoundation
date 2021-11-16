@@ -7,5 +7,5 @@ $servername = 'localhost';
 $dbname = 'eternityfoundation';
 $username = 'root';
 $password = '';
-$conn = new mysqli($servername,$username,$password,$dbname) or dir("connection fail");
+$conn = new mysqli($servername,$username,$password,$dbname) or die("connection fail");
 ?>
