@@ -4,8 +4,9 @@
         <div class="container-fluid health-img">
             <div class="overlay"></div>
             <div class="about-text text-center">
-                <h1 class="display-5"><span class="span-1">Eternity</span> <span class="span-2">Foundation</span></h1>
-                <h2>never stop dreaming</h2>
+                <h1 class='display-1'>Health</h1>
+                <!-- <h1 class="display-5"><span class="span-1">Eternity</span> <span class="span-2">Foundation</span></h1> -->
+                <!-- <h2>never stop dreaming</h2> -->
             </div>
         </div>
     </section>
@@ -25,14 +26,37 @@
             </div>
             <div class="col-1"></div>
             <div class="col-12 col-md-5">
-                <img src="images\cataract.jpg" alt="cataractImage" class='img-fluid' id='cataractImage' />
+                <img src="images\cataract.jpg" alt="cataractImage"  id='cataractImage' />
             </div>
         </div>
-        <hr class="about-divider">
+    </div>
+    <!-- <hr class="about-divider"> -->
+    <div class="container-fluid my-5 margin-b" id="checks">
+        <div class="overlay"></div>
+        <div class="milestone row text-center d-flex align-items-center" id="drishti">
+            <div class="col-12">
+                <p class="counter-heading">Eye's Screening</p>
+                <div class="counter" data-target="2021">0</div>
+            </div>
+            <div class="col-12">
+                <p class="counter-heading">Cataract Cases Found</p>
+                <div class="counter" data-target="370">0</div>
+            </div>
+            <div class="col-12">
+                <p class="counter-heading">Pterygium Cases Found</p>
+                <div class="counter" data-target="100">0</div>
+            </div>
+            <div class="col-12">
+                <p class="counter-heading">Surgeries Done</p>
+                <div class="counter" data-target="344">0</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
         <div class="row">
             <div class="col-12 margin-b">
                 <h4>key findings of then survey:</h4>
-                <p class="lead text-justify">
+                <p class=" text-justify">
                     Cataract is the principal cause of blindness for people above 50 years in India. Cataract is the cause for 66.2% cases of blindness, 80.7% cases of severe visual impairment, and 70.2% cases of moderate visual impairment in the age group. Blindness is more pronounced among illiterate (3.23%) than literates (0.43%) and more prevalent in the rural population (2.14%) than urban (1.80%). Approximately 93% of cases of blindness and 96.2% visual impairment cases in this age group were avoidable. Barriers to accessing treatment include no one to accompany [the patient], seasonal preferences, and financial constraints. Among men, the most important barriers are financial constraints (31%) and local reasons (21.5%). Among women, local reasons (23.1%) and financial constraints (21.2%) were the most important barriers. 
                 </p>
             </div>
@@ -40,7 +64,7 @@
             <div class="col-12 margin-b">
             <hr class="about-divider">
                 <h4>About Project DRISHTI</h4>
-                <p class="lead text-justify">
+                <p class=" text-justify">
                     Eternity Foundation has launch Project ‘Drishti” on 9th September-2019 at Visakhapatnam, Like its name suggests ‘Drishti’ project is aims to curve the early eye problem and aging cataract in people above 50 year. Eternity Foundation firmly believes that the financial condition play major factor to not able to get treatment, this factor may increase the number of cataract based blindness. Eternity foundation provide support and services to those underprivileged BPL families of rural areas. Eternity Foundation has targeted for more than 1600 screening and merely 300 surgeries (Free of Cost) 2019-2020 till December. 
                 </p>
             </div>
@@ -62,9 +86,9 @@
             <div class="col-12 margin-b">
                 <hr class="about-divider">
                 <h4>Services that provided by Eternity Foundation</h4>
-                <p class="lead text-justify">
+                <p class="text-justify">
                     Free of cost eye screening by a specialized team. Free of cost advice and counseling by the ophthalmic assistant. Spectacles number will be provided for Near vision and Distance vision patients. Patients found with cataract and Pteryzium refer to the higher center of surgeries. Free of transportation from home to hospital and home retuning Free surgery and pre and post-surgery medicines will be given to the patients, Black glasses and spectacle will be given to the patient.<br><br>
-                    Eternity Foundation has been initiated project DRISHTI with the help of Pushpagiri Hospital and KIMS Hospital, these hospitals are affiliated under Arogya Raksha scheme of State Govt. of Andhra Pradesh. These institutions have shown their interest and efforts to make society better and treatment accessible to the marginalized communities.  
+                    Eternity Foundation has been initiated project DRISHTI with the help of Pushpagiri Hospital and KIMS-ICON Hospital, these hospitals are affiliated under Arogya Raksha scheme of State Govt. of Andhra Pradesh. These institutions have shown their interest and efforts to make society better and treatment accessible to the marginalized communities.  
                 </p>
             </div>
         </div>

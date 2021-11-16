@@ -3,9 +3,9 @@
 <section  id="about_head">
     <div class="container-fluid" id="about-img">
         <div class="overlay"></div>
-        <div class="about-text text-center">
-            <h1 class="display-5"><span class="span-1">Eternity</span> <span class="span-2">Foundation</span></h1>
-            <h2>never stop dreaming</h2>
+        <div class="about-text ">
+            <h1 class="display-1">About</h1>
+            <!-- <h2>never stop dreaming</h2> -->
         </div>
     </div>
 </section>
@@ -36,23 +36,37 @@
         </div>
     </div>
 </section>
-<section id="vision">
-    <div class="container-fluid vision-img mt-5">
+<section id="vision m-5 p-5">
+    <div class="container-fluid cont">
         <div class="overlay"></div>
         <div class="row">
-            <div class="col-12 col-md-6 vision-text">
-                <h2 class="text-white ml-5 my-5">Our Vision</h2>
-                <ul class="ml-5">
-                    <li class="text-white">To create a self-healing society where every individual can access the services and develops self-compassion to make society better.</li>
-                    <li class="text-white">To create a self-healing society where every individual can access the services and develops self-compassion to make society better.</li>
-                </ul>
+            <div class="col">
+                <div class="v-div text-center shadow-lg p-3 mb-5 rounded">
+                    <h2 class="mt-5 px-5 pt-2 display-4 text-light"><strong>Our Vision</strong></h2> 
+                    <p class="text-light p-5 v-text">To create a self-healing society where every individual can access the services and develops self-compassion to make society better.</p>
+                </div>
             </div>
-            <div class="col-12 col-md-6"></div>
+            <div class="col">
+                <div class="v-div text-center shadow-lg p-3 mb-5 rounded">
+                    <h2 class="mt-5 px-5 pt-2 display-4 text-light"><strong>Our Mission</strong></h2> 
+                    <p class="text-light p-5 v-text">We are committed to enhancing the dignity and quality of the lives of women, youth, children, veterans, families and communities by helping them reach their full potentials.</p>
+                </div>
+            </div>
         </div>
+        <!-- <h2 class="mt-5 display-4 vision-heading">Our Vision</h2>        -->
     </div>
+    <!-- <div class="container-fluid"> 
+        <div class="row vision-bottom">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <p class="text-light text-justify text-center">To create a self-healing society where every individual can access the services and develops self-compassion to make society better.</p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div> -->
 </section>
 <section id="team">
-    <div class="container my-3 py-5 text-center">
+    <div class="container my-5 py-5 text-center">
         <div class="row mb-5">
             <div class="col">
                 <h3 class="mb-3">Our <span class="heading-text">Team</span></h3>
@@ -67,7 +81,7 @@
                 while($row = $result->fetch_assoc()){?>
                     <div class="col-lg-4 col-md-6">
                         <div class="team-img">
-                            <img src="<?= $row['image']; ?>" alt="<?= $row['image']; ?>" class="mx-auto d-block w-100" >
+                            <img src="<?= $row['image']; ?>" alt="<?= $row['image']; ?>" class="mx-auto d-block w-100 " height="350">
                             <div class="team-info">
                                 <h5><?= $row['name']; ?></h5>
                                 <p><?= $row['about']; ?></p>
